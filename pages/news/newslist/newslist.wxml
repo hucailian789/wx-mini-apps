@@ -1,0 +1,13 @@
+<!--pages/news/newslist/newslist.wxml-->
+<view class="everyNewsItem" wx:for-item="news" wx:for="{{newsList}}" wx:key="{{index}}">
+  <image src="{{news.img_url}}"></image>
+  <view class="titleAndTimeStyle">
+    <view class="titleStyle">
+      <text>{{news.title}}</text>
+    </view>
+    <view class="timeAndClickStyle">
+      <text>{{news.add_time}}</text>
+      <text>点击数{{news.click}}次</text>
+    </view>
+  </view>
+</view>

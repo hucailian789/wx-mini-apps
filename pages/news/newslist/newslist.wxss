@@ -1,0 +1,35 @@
+/* pages/news/newslist/newslist.wxss */
+.everyNewsItem{
+  height: 100px;
+  border-bottom: 1px solid rgba(92,92,92,0.3);
+  display: flex;
+  flex-direction: row;
+}
+
+image{
+  height: 75px;
+  max-width: 75px;
+  margin-top:12px;
+  margin-left: 8px;
+}
+
+.titleAndTimeStyle{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left:8px;
+  margin-right: 8px;
+}
+
+.titleStyle{
+  font-size:14px;
+  color: #0094ff;
+}
+
+.timeAndClickStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+  font-size: 12px;
+}
